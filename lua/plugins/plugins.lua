@@ -33,6 +33,10 @@ return {
 
 	-- NOTE: ---- Quality of life
 	{
+		"christoomey/vim-tmux-navigator",
+		lazy = false,
+	},
+	{
 		"folke/noice.nvim",
 		event = "VeryLazy",
 		opts = function()

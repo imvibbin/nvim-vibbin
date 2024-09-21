@@ -14,6 +14,7 @@ return {
 		"zls",
 		"sqlls",
 		"tailwindcss-language-server",
+		"jdtls",
 
 		-- Formatters
 		"black",
@@ -27,6 +28,8 @@ return {
 		-- DAP
 		"codelldb",
 		"debugpy",
+		"java-debug-adapter",
+		"java-test",
 	},
 
 	max_concurrent_installers = 10,
